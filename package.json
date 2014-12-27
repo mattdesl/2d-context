@@ -1,0 +1,40 @@
+{
+  "name": "canvas-2d",
+  "version": "1.0.0",
+  "description": "creates a canvas with a 2D context",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^8.0.2",
+    "faucet": "0.0.1",
+    "tape": "^3.0.3",
+    "testling": "^1.7.1"
+  },
+  "scripts": {
+    "test": "browserify test.js | testling | faucet"
+  },
+  "keywords": [
+    "canvas",
+    "context",
+    "webgl-context",
+    "canvas-2d",
+    "2d",
+    "createElement",
+    "create",
+    "element"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/canvas-2d.git"
+  },
+  "homepage": "https://github.com/mattdesl/canvas-2d",
+  "bugs": {
+    "url": "https://github.com/mattdesl/canvas-2d/issues"
+  }
+}
