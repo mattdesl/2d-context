@@ -1,7 +1,5 @@
 # 2d-context
 
-**deprecated in favour of [2d-context](https://www.npmjs.com/package/2d-context)**
-
 Creates a new canvas with a 2D context, returning the context.
 
 ```js
