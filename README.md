@@ -1,6 +1,6 @@
 # 2d-context
 
-Creates a new canvas with a 2D context, returning the context.
+Grabs a CanvasRenderingContext2D, returning null if it doesn't exist. Similar to [webgl-context](https://nodei.co/npm/webgl-context/).
 
 ```js
 var context = require('2d-context')()
@@ -26,7 +26,7 @@ var context = require('2d-context')({
 
 #### `ctx = require('2d-context')([opt])`
 
-Creates a new canvas with optional parameters:
+Gets a new canvas context with optional parameters:
 
 - `canvas` a canvas element to use, otherwise creates a new element
 - `width` a width to set, otherwise no change

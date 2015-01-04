@@ -5,6 +5,7 @@ test("creates a canvas with a 2D context", function(t) {
     var ctx = create()
     t.ok(ctx instanceof CanvasRenderingContext2D, true, 'got context')
     t.equal(typeof ctx.canvas.getContext, 'function', 'got canvas')
+    t.equal(create({ canvas: {} }), null, 'returns null on fail')
     t.end()
 })
 
