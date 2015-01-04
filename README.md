@@ -1,10 +1,6 @@
-**deprecated in favour of [2d-context](https://www.npmjs.com/package/2d-context)**
-
---
-
 # 2d-context
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+**deprecated in favour of [2d-context](https://www.npmjs.com/package/2d-context)**
 
 Creates a new canvas with a 2D context, returning the context.
 
