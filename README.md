@@ -1,11 +1,15 @@
-# canvas-2d
+**deprecated in favour of [2d-context](https://www.npmjs.com/package/2d-context)**
+
+--
+
+# 2d-context
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 Creates a new canvas with a 2D context, returning the context.
 
 ```js
-var context = require('canvas-2d')()
+var context = require('2d-context')()
 var canvas = context.canvas
 ```
 
@@ -14,7 +18,7 @@ or
 ```js
 var canvas = document.createElement('canvas')
 
-var context = require('canvas-2d')({
+var context = require('2d-context')({
     canvas: canvas,
     alpha: true,
     width: 256,
@@ -24,9 +28,9 @@ var context = require('canvas-2d')({
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/canvas-2d.png)](https://nodei.co/npm/canvas-2d/)
+[![NPM](https://nodei.co/npm/2d-context.png)](https://nodei.co/npm/2d-context/)
 
-#### `ctx = require('canvas-2d')([opt])`
+#### `ctx = require('2d-context')([opt])`
 
 Creates a new canvas with optional parameters:
 
@@ -39,4 +43,4 @@ You can then get a reference of the canvas element with `ctx.canvas`.
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/mattdesl/canvas-2d/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/mattdesl/2d-context/blob/master/LICENSE.md) for details.

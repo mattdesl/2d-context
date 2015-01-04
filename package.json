@@ -1,7 +1,7 @@
 {
-  "name": "canvas-2d",
+  "name": "2d-context",
   "version": "1.0.0",
-  "description": "creates a canvas with a 2D context",
+  "description": "grabs a new 2d canvas context",
   "main": "index.js",
   "license": "MIT",
   "author": {
@@ -23,7 +23,7 @@
     "canvas",
     "context",
     "webgl-context",
-    "canvas-2d",
+    "2d-context",
     "2d",
     "createElement",
     "create",
@@ -31,10 +31,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/canvas-2d.git"
+    "url": "git://github.com/mattdesl/2d-context.git"
   },
-  "homepage": "https://github.com/mattdesl/canvas-2d",
+  "homepage": "https://github.com/mattdesl/2d-context",
   "bugs": {
-    "url": "https://github.com/mattdesl/canvas-2d/issues"
+    "url": "https://github.com/mattdesl/2d-context/issues"
   }
 }
