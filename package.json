@@ -1,5 +1,5 @@
 {
-  "name": "2d-context",
+  "name": "canvas-2d",
   "version": "1.0.1",
   "description": "grabs a new 2d canvas context",
   "main": "index.js",
