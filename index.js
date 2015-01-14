@@ -1,4 +1,6 @@
 module.exports = function createCanvas2D(opt) {
+    if (typeof document === 'undefined')
+        return null
     opt = opt||{}
     var canvas = opt.canvas || document.createElement('canvas')
     if (typeof opt.width === 'number')

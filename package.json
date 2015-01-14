@@ -17,6 +17,7 @@
     "testling": "^1.7.1"
   },
   "scripts": {
+    "test-node": "node test-node.js | faucet",
     "test": "browserify test.js | testling | faucet"
   },
   "keywords": [
